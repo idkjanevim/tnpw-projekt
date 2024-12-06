@@ -1,10 +1,10 @@
 <script lang="ts">
   import { base } from '$app/paths';
   const skillImages = [
-    { name: 'C/C++', imageUrl: '../imgs/cpp.webp' },
-    { name: 'Rust', imageUrl: '../imgs/rust.webp' },
-    { name: 'Ghidra', imageUrl: '../imgs/ghidra.webp' },
-    { name: 'Python', imageUrl: '../imgs/python.webp' },
+    { name: 'C/C++', imageUrl: './imgs/cpp.webp' },
+    { name: 'Rust', imageUrl: './imgs/rust.webp' },
+    { name: 'Ghidra', imageUrl: './imgs/ghidra.webp' },
+    { name: 'Python', imageUrl: './imgs/python.webp' },
   ];
   let skills = [
     { skill: 'C++', proficiency: 'Intermediate', experience: '1+ years', lastUsed: 'Recently'},

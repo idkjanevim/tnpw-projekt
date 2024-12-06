@@ -3,7 +3,6 @@
 	import Header from '../components/Header.svelte';
 	import Footer from '../components/Footer.svelte';
 	
-	export const prerender = true;
 	let { children } = $props();
 </script>
 
